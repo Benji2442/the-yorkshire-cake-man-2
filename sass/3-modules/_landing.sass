@@ -6,20 +6,37 @@
 	.row
 		height: calc(100vh - 101px)
 	h1
-		font-size: 3rem
+		font-size: 3.5rem
 		color: #FFFFFF
 	p
 		font-size: 1.5rem
 	.btn
 		width: 150px
-.btn-custom
+		margin: 5px
+		z-index: 1002
+		&:focus
+			box-shadow: none
+		&:hover
+			margin: 3px 5px
+
+.btn-custom1
 	background-color: $brand-cream
 	color: $brand-blue
 	&:focus
 		background-color: $brand-cream
-.btn-primary
+		color: $brand-blue
+	&:hover
+		background-color: darken($brand-cream, 10%)
+		color: $brand-blue
+		border: 2px solid $brand-blue
+
+.btn-custom2
 	background-color: $brand-blue
 	color: $brand-cream
-	border: none
 	&:focus
 		background-color: $brand-blue
+		color: $brand-cream
+	&:hover
+		background-color: darken($brand-blue, 10%)
+		color: $brand-cream
+		border: 2px solid $brand-cream

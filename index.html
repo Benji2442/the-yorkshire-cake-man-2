@@ -7,6 +7,8 @@
 
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:600" rel="stylesheet">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 
 		<!-- bootstrap cdn -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -21,13 +23,13 @@
 				<a id="logo-btn" class="navbar-brand" href="#">
 					<img src="/img/logo.png" alt="">
 				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler navbar-toggle-custom custom-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
 				<div class="collapse navbar-collapse" id="navbarText">
 			    <ul class="navbar-nav ml-auto">
 			      <li class="nav-item active">
-			        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			        <a class="nav-link" href="#">Home</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="#">Prices</a>
@@ -43,23 +45,61 @@
 			</div>
 		</nav>
 
-		<!-- landing -->
-		<div id="landing" class="container-fluid">
-				<div class="row align-items-center justify-content-center">
-					<div id="landing-wrapper" class="col-md-6">
-						<h1>The Yorkshire Cake Man</h1>
-						<p>Bespoke cakes made to order</p>
-						<button type="button" class="btn btn-primary btn-lg">Prices</button>
-						<button type="button" class="btn btn-custom btn-lg">Contact</button>
-					</div>
-				</div>
+		<!-- content -->
+		<div id="content">
+			<!-- content loaded here -->
 		</div>
 
+		<footer>
+			<div class="navbar navbar-custom fixed-bottom">
+				<div class="container-fluid">
+					<div id="footerWrapper">
+						<ul>
+				      <li class="socialIcon">
+				        <a href="https://www.facebook.com/theyorkshirecakeman/">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+				      </li>
+				      <li class="socialIcon">
+				        <a href="https://www.instagram.com/the_yorkshire_cake_man/?hl=en">
+									<i class="fab fa-instagram"></i>
+								</a>
+				      </li>
+							<li class="socialIcon">
+								<a href="https://twitter.com/YorksCakeMan?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+				      <li class="socialIcon">
+				        <a href="mailto:theyorkshirecakeman@yahoo.com">
+									<i class="far fa-envelope"></i>
+								</a>
+				      </li>
+				      <li class="socialIcon">
+				        <a href="#">
+									<i class="fas fa-phone"></i>
+								</a>
+				      </li>
+				    </ul>
+					</div>
+				</div>
+			</div>
+		</footer>
 
 		<!-- bootstrap cdn -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+		<script src="js/pages.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(".navbar-toggler").click(function(){
+					$(".fixed-bottom").toggleClass("mobileActive");
+				})
+			});
+		</script>
 
   </body>
 </html>

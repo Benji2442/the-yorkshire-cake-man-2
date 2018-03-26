@@ -1,15 +1,18 @@
-$(document).ready(function(){
-	$('#content').load('/pages/home.html');
-});
+// $(document).ready(function(){
+// 	$('#content').load('/pages/home.html');
+// });
 
 // below loads page based on nav-link.text
 
 $('.nav-link').click(function(event){
 	$("#content").empty();
+	$('#cakeHtmlHere').empty();
 	var pageName = $(this).text().toLowerCase();
 	pageName = pageName + ".html";
 	$('#content').load("/pages/" + pageName);
 });
+
+//below loads pages based on .btn click
 
 $(document).on('click','.btn', function(event){
 	// $('#content').empty();
@@ -17,6 +20,8 @@ $(document).on('click','.btn', function(event){
 	buttonPage = buttonPage + ".html";
 	$('#content').load("/pages/" + buttonPage);
 });
+
+//below adds photo thumbs in via json data
 
 $(document).on('click', '.galleryItem a', function(){
 	var selectedCollection = $(this).text().toLowerCase();

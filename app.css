@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 html:after {
   content: "";
   display: block;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   background-image: url(../../img/pexels-photo-271082.jpeg);
@@ -307,12 +307,20 @@ html:after {
   #gallery .jumbotron {
     background-color: #fefff2;
     color: #749efd; }
+  #gallery #landing-wrapper {
+    color: #FFFFFF; }
+    #gallery #landing-wrapper h1 {
+      color: #FFFFFF;
+      font-size: 2.5rem; }
 
 .galleryItem {
   display: inline-block; }
 
 .galleryImage {
   margin-bottom: 25px; }
+
+#galleryContent {
+  margin-top: 170px; }
 
 /* CONTACT STYLES */
 #contact h1 {

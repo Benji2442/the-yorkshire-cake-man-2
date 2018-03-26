@@ -189,7 +189,10 @@ p, a, button {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "IBM Plex Serif", serif;
-  font-weight: 800; }
+  font-weight: 800;
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  text-align: center; }
 
 html:after {
   content: "";
@@ -275,7 +278,7 @@ html:after {
 /* FOOTER */
 .socialIcon {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-left: 1rem; }
   .socialIcon a {
     color: #FFFFFF; }
@@ -292,17 +295,27 @@ html:after {
   .mobileActive .socialIcon a {
     color: #749efd; }
 
+@media (min-width: 768px) {
+  .socialIcon {
+    font-size: 2rem; } }
 /* GALLERY STYLES */
 #gallery {
   text-align: center;
   padding-top: 150px; }
   #gallery h1 {
-    font-size: 2.5rem; }
+    color: #749efd; }
   #gallery .jumbotron {
     background-color: #fefff2;
     color: #749efd; }
 
 .galleryItem {
   display: inline-block; }
+
+.galleryImage {
+  margin-bottom: 25px; }
+
+/* CONTACT STYLES */
+#contact h1 {
+  padding-top: 50px; }
 
 /*# sourceMappingURL=app.css.map */

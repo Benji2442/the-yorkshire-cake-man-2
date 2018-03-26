@@ -1,0 +1,94 @@
+[
+  {
+		"collection": "birthday",
+		"name": "cake1",
+    "src1": "../img/gallery/cake1/img-1.jpg",
+    "src2": "../img/gallery/cake1/img-2.jpg",
+		"thumb": "../img/gallery/cake1/thumb.jpg"
+  },
+  {
+		"collection": "birthday",
+		"name": "cake2",
+    "src1": "../img/gallery/cake2/img-1.jpg",
+    "src2": "../img/gallery/cake2/img-2.jpg",
+		"thumb": "../img/gallery/cake2/thumb.jpg"
+  },
+  {
+		"collection": "birthday",
+		"name": "cake3",
+    "src1": "../img/gallery/cake3/img-1.jpg",
+    "src2": "../img/gallery/cake3/img-2.jpg",
+    "src3": "../img/gallery/cake3/img-3.jpg",
+		"thumb": "../img/gallery/cake3/thumb.jpg"
+  },
+  {
+		"collection": "birthday",
+		"name": "cake4",
+    "src1": "../img/gallery/cake4/img-1.jpg",
+		"thumb": "../img/gallery/cake4/thumb.jpg"
+  },
+  {
+		"collection": "birthday",
+		"name": "cake5",
+    "src1": "../img/gallery/cake5/img-1.jpg",
+    "src2": "../img/gallery/cake5/img-2.jpg",
+    "src3": "../img/gallery/cake5/img-3.jpg",
+    "src4": "../img/gallery/cake5/img-4.jpg",
+    "src5": "../img/gallery/cake5/img-5.jpg",
+    "src6": "../img/gallery/cake5/img-6.jpg",
+    "src7": "../img/gallery/cake5/img-7.jpg",
+		"thumb": "../img/gallery/cake5/thumb.jpg"
+  },
+  {
+		"collection": "birthday",
+		"name": "cake6",
+    "src1": "../img/gallery/cake6/img-1.jpg",
+    "src2": "../img/gallery/cake6/img-2.jpg",
+    "src3": "../img/gallery/cake6/img-3.jpg",
+    "src4": "../img/gallery/cake6/img-4.jpg",
+    "src5": "../img/gallery/cake6/img-5.jpg",
+    "src6": "../img/gallery/cake6/img-6.jpg",
+    "src7": "../img/gallery/cake6/img-7.jpg",
+		"thumb": "../img/gallery/cake6/thumb.jpg"
+  },
+  {
+		"collection": "birthday",
+		"name": "cake7",
+    "src1": "../img/gallery/cake7/img-1.jpg",
+    "src2": "../img/gallery/cake7/img-2.jpg",
+    "src3": "../img/gallery/cake7/img-3.jpg",
+		"thumb": "../img/gallery/cake7/thumb.jpg"
+  },
+	{
+		"collection": "wedding",
+		"name": "wedding1",
+    "src1": "../img/gallery/wedding1/img-1.jpg",
+    "src2": "../img/gallery/wedding1/img-2.jpg",
+    "src3": "../img/gallery/wedding1/img-3.jpg",
+		"thumb": "../img/gallery/wedding1/thumb.jpg"
+  },
+	{
+		"collection": "wedding",
+		"name": "wedding2",
+    "src1": "../img/gallery/wedding2/img-1.jpg",
+    "src2": "../img/gallery/wedding2/img-2.jpg",
+    "src3": "../img/gallery/wedding2/img-3.jpg",
+		"thumb": "../img/gallery/wedding2/thumb.jpg"
+  },
+	{
+		"collection": "cupcakes",
+		"name": "cupcake1",
+    "src1": "../img/gallery/cupcake1/img-1.jpg",
+    "src2": "../img/gallery/cupcake1/img-2.jpg",
+    "src3": "../img/gallery/cupcake1/img-3.jpg",
+		"thumb": "/img/gallery/cupcake1/thumb.jpg"
+  },
+	{
+		"collection": "cupcakes",
+		"name": "cupcake2",
+    "src1": "../img/gallery/cupcake2/img-1.jpg",
+    "src2": "../img/gallery/cupcake2/img-2.jpg",
+    "src3": "../img/gallery/cupcake2/img-3.jpg",
+		"thumb": "/img/gallery/cupcake2/thumb.jpg"
+  }
+]

@@ -194,18 +194,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2.5rem;
   text-align: center; }
 
-html:after {
-  content: "";
+#fullPageWrap {
   display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
   background-image: url(../../img/pexels-photo-271082.jpeg);
   background-size: cover;
   width: 100%;
   height: 100vh;
-  opacity: 0.7;
-  z-index: -1; }
+  opacity: 0.7; }
 
 /* LAYOUT STYLES */
 /* MODULE STYLES */
@@ -276,6 +271,9 @@ html:after {
     border: 2px solid #fdffd8; }
 
 /* FOOTER */
+footer {
+  position: fixed; }
+
 .socialIcon {
   display: inline-block;
   font-size: 1.5rem;
@@ -325,5 +323,46 @@ html:after {
 /* CONTACT STYLES */
 #contact h1 {
   padding-top: 50px; }
+
+/* PRICES STYLES */
+#pricesH1 {
+  font-size: 4rem;
+  padding-top: 20%; }
+
+#pricesH1 + p {
+  color: #FFFFFF;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1.3rem; }
+
+#tables {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 50px; }
+
+table {
+  width: 80%;
+  margin: 0 auto 100px;
+  text-align: center;
+  padding-top: 50px; }
+  table th {
+    text-align: center;
+    background-color: #d9e4fe; }
+  table tr:nth-child(odd) {
+    background-color: #fdffd8; }
+
+caption {
+  text-align: center; }
+
+.price-header {
+  width: 90%;
+  margin: 0 auto 50px;
+  color: #cdd800;
+  text-align: center;
+  font-size: 1.3em; }
+
+@media (max-width: 767.98px) {
+  #pricesH1 + p {
+    font-size: 1rem; } }
 
 /*# sourceMappingURL=app.css.map */

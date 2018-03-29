@@ -1,0 +1,42 @@
+/* PRICES STYLES */
+
+#pricesH1
+	font-size: 4rem
+	padding-top: 20%
+
+#pricesH1 + p
+	color: #FFFFFF
+	text-align: center
+	width: 70%
+	margin: 0 auto
+	font-size: 1.3rem
+
+#tables
+	font-family: 'Open Sans', sans-serif
+	padding-top: 50px
+
+table
+	width: 80%
+	margin: 0 auto 100px
+	text-align: center
+	padding-top: 50px
+	th
+		text-align: center
+		background-color: lighten($brand-blue, 20%)
+	tr:nth-child(odd)
+		background-color: $brand-cream
+
+caption
+	text-align: center
+
+.price-header
+	width: 90%
+	margin: 0 auto 50px
+	color: darken($brand-cream, 50%)
+	text-align: center
+	font-size: 1.3em
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px)
+	#pricesH1 + p
+		font-size: 1rem

@@ -18,60 +18,51 @@
   </head>
   <body>
 
+	<div id="fullPageWrap">
+
 		<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
 			<div class="container">
 				<a id="logo-btn" class="navbar-brand" href="#">
 					<img src="/img/logo.png" alt="">
 				</a>
 				<button class="navbar-toggler navbar-toggle-custom custom-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
-			  </button>
+					<span class="navbar-toggler-icon"></span>
+				</button>
 				<div class="collapse navbar-collapse" id="navbarText">
-			    <ul class="navbar-nav ml-auto">
-			      <li class="nav-item active">
-			        <a class="nav-link" href="#">Home</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Prices</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Gallery</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Contact</a>
-			      </li>
-			    </ul>
-			  </div>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/pages/prices.html">Prices</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/pages/gallery.html">Gallery</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/pages/contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</nav>
-
 		<!-- content -->
 		<div id="content">
 			<div id="landing" class="container-fluid">
-					<div class="row align-items-center justify-content-center">
-						<div id="landing-wrapper" class="col-md-6">
-							<h1>The Yorkshire Cake Man</h1>
-							<p>Bespoke cakes made to order</p>
-							<button type="button" class="btn btn-custom1 btn-lg d-none d-sm-inline-block">Prices</button>
-							<button type="button" class="btn btn-custom2 btn-lg d-none d-sm-inline-block">Contact</button>
-						</div>
+				<div class="row align-items-center justify-content-center">
+					<div id="landing-wrapper" class="col-md-6">
+						<h1>The Yorkshire Cake Man</h1>
+						<p>Bespoke cakes made to order</p>
+						<button type="button" class="btn btn-custom1 btn-lg d-none d-sm-inline-block">Prices</button>
+						<button type="button" class="btn btn-custom2 btn-lg d-none d-sm-inline-block">Contact</button>
 					</div>
+				</div>
 			</div>
 		</div>
 
-		<div id="galleryContent" class="container">
-			<div id="cakeHtmlHere" class="row">
+	</div> <!-- end of fullPageWrap--->
 
-				<!-- <div class="galleryImage col-lg-4 col-sm-6">
-					<a href="#">
-						<img class="img-thumbnail" src="img\gallery\cake1\thumb.jpg" alt="">
-					</a>
-				</div> -->
-
-			</div>
-		</div>
-
-		<footer>
+	<footer>
 			<div class="navbar navbar-custom fixed-bottom">
 				<div class="container-fluid">
 					<div id="footerWrapper">
@@ -107,20 +98,22 @@
 			</div>
 		</footer>
 
+
+
 		<!-- bootstrap cdn -->
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-	  crossorigin="anonymous"></script>
+		crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-		<script src="js/pages.js"></script>
+		<!-- <script src="js/pages.js"></script> -->
 		<script>
-			$(document).ready(function(){
-				$(".navbar-toggler").click(function(){
-					$(".fixed-bottom").toggleClass("mobileActive");
-				})
-			});
+		$(document).ready(function(){
+			$(".navbar-toggler").click(function(){
+				$(".fixed-bottom").toggleClass("mobileActive");
+			})
+		});
 		</script>
 
-  </body>
-</html>
+	</body>
+	</html>

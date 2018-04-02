@@ -12,12 +12,12 @@ $( document ).ready(function() {
 
 //below loads pages based on .btn click
 
-$(document).on('click','.btn', function(event){
-	// $('#content').empty();
-	var buttonPage = $(this).text().toLowerCase();
-	buttonPage = buttonPage + ".html";
-	$('#content').load("/pages/" + buttonPage);
-});
+// $(document).on('click','.btn', function(event){
+// 	// $('#content').empty();
+// 	var buttonPage = $(this).text().toLowerCase();
+// 	buttonPage = buttonPage + ".html";
+// 	$('#content').load("/pages/" + buttonPage);
+// });
 
 
 // $(document).ready(function(){

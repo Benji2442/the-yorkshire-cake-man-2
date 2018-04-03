@@ -1,13 +1,13 @@
 // below loads page based on nav-link.text
-$( document ).ready(function() {
-	$('.nav-link').click(function(event){
-		$("#content").empty();
-		$('#cakeHtmlHere').empty();
-		var pageName = $(this).text().toLowerCase();
-		pageName = pageName + ".html";
-		$('#content').load("/pages/" + pageName);
-	});
-});
+// $( document ).ready(function() {
+// 	$('.nav-link').click(function(event){
+// 		$("#content").empty();
+// 		$('#cakeHtmlHere').empty();
+// 		var pageName = $(this).text().toLowerCase();
+// 		pageName = pageName + ".html";
+// 		$('#content').load("/pages/" + pageName);
+// 	});
+// });
 
 
 //below loads pages based on .btn click

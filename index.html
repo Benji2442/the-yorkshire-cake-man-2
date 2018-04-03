@@ -9,6 +9,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:600" rel="stylesheet">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="/css/animate.css">
 
 		<!-- bootstrap cdn -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -50,7 +51,7 @@
 		<div id="content">
 			<div id="landing" class="container-fluid">
 				<div class="row align-items-center justify-content-center">
-					<div id="landing-wrapper" class="col-md-6">
+					<div id="landing-wrapper" class="col-md-6 wow fadeIn" data-wow-duration="2s">
 						<h1>The Yorkshire Cake Man</h1>
 						<p>Bespoke cakes made to order</p>
 						<a role="button" class="btn btn-custom1 btn-lg d-none d-sm-inline-block" href="/pages/prices.html">Prices</a>
@@ -106,13 +107,18 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-		<script src="js/pages.js"></script>
+		<!-- <script src="js/pages.js"></script> -->
 		<script>
 		$(document).ready(function(){
 			$(".navbar-toggler").click(function(){
 				$(".fixed-bottom").toggleClass("mobileActive");
+				$("#landing").toggleClass("landingActive");
 			})
 		});
+		</script>
+		<script src="/js/wow.min.js"></script>
+		<script>
+			new WOW().init();
 		</script>
 
 	</body>

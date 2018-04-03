@@ -19,3 +19,24 @@ h1,h2,h3,h4,h5,h6
 
 $brand-blue: #749efd
 $brand-cream: #fdffd8
+
+/* width */
+::-webkit-scrollbar
+	width: 10px
+
+
+/* Track */
+::-webkit-scrollbar-track
+	box-shadow: inset 0 0 5px #fff
+	border-radius: 20px
+
+
+/* Handle */
+::-webkit-scrollbar-thumb
+	background: lighten($brand-blue, 13%)
+	border-radius: 1px
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover
+	background: $brand-blue

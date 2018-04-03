@@ -9,6 +9,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:600" rel="stylesheet">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="../../css/animate.css">
 
 		<!-- bootstrap cdn -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -21,7 +22,7 @@
 		<div id="fullPageWrap">
 			<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
 				<div class="container">
-					<a id="logo-btn" class="navbar-brand" href="#">
+					<a id="logo-btn" class="navbar-brand" href="../../index.html">
 						<img src="/img/logo.png" alt="">
 					</a>
 					<button class="navbar-toggler navbar-toggle-custom custom-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +47,7 @@
 				</div>
 			</nav>
 
-			<div class="container">
+			<div class="container wow fadeIn">
 				<h1 id="pricesH1">PRICES & TERMS</h1>
 				<p>All cakes are individual and made to your exact specifications. The prices listed below are the basic starting price and may increase depending on your design requirements.</p>
 			</div>
@@ -56,7 +57,7 @@
 			<div class="row">
 
 				<!-- Round sponge cake table -->
-				<table class="col-md-5">
+				<table class="col-md-5 wow fadeInLeft">
 					<caption>Round Sponge Cakes</caption>
 					<tr>
 						<th>Size (inches)</th>
@@ -97,7 +98,7 @@
 				<!-- End of round sponge cake table -->
 
 				<!-- Square sponge cake table -->
-				<table class="col-md-5 offset-md-2">
+				<table class="col-md-5 offset-md-2 wow fadeInRight">
 					<caption>Square Sponge Cakes</caption>
 
 					<tr>
@@ -193,6 +194,10 @@
 					$("#pricesH1 + p").fadeToggle(300);
 				})
 			});
+		</script>
+		<script src="../../js/wow.min.js"></script>
+		<script>
+			new WOW().init();
 		</script>
 
 

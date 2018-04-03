@@ -201,6 +201,24 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh; }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #fff;
+  border-radius: 20px; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b5ccfe;
+  border-radius: 1px; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #749efd; }
+
 /* LAYOUT STYLES */
 /* MODULE STYLES */
 /* NAV BAR STYLES */
@@ -267,6 +285,14 @@ h1, h2, h3, h4, h5, h6 {
   .btn-custom2:hover {
     background-color: #427bfc;
     color: #fdffd8; }
+
+.landingActive #landing-wrapper {
+  transition: all 0.7s ease-in-out;
+  height: 100%; }
+  .landingActive #landing-wrapper p {
+    display: none; }
+  .landingActive #landing-wrapper a {
+    display: none !important; }
 
 /* FOOTER */
 footer {
